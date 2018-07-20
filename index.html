@@ -55,18 +55,7 @@
                                 <h1>Word Guess Game</h1>
                             </div>
                           </div>
-                          <div class="mx-auto jumbotron mainDisplay">
-                            <div class="row">
-                              <div class="col-md-6 mr-auto mobileBoard">
-                                  <!-- Displays Wins -->
-                                <p class="text-left ">Wins:
-                                </p>
-                              </div>
-                              <div class="col-md-6 ml-auto">
-                                <p class="text-right">Remaining Attempts: 
-                                </p>
-                              </div>
-                            </div>
+           
                             <br>
                             <br>
                             <br>
@@ -81,11 +70,29 @@
                           <div class="container">
                             <div class="col-md-12">
                                 <h4>Current Word</h4>
- 
+                                <p><span id="currentWord"></span></p>
+                                <p><span id="revealAnswer"></span></p>
+                                <p><span id="correctDisplay"></span></p>     
                                 <h5>~Eliminated Letters~</h5>
+                                <p><span id="displayGuess"></span></p>
                            
                             </div>
                           </div>
+                          <div class="mx-auto jumbotron mainDisplay">
+                                <div class="row">
+                                  <div class="col-md-6 mr-auto mobileBoard">
+                                      <!-- Displays Wins -->
+                                    <p class="text-left ">Wins:
+                                     <span id="checkScore">0</span>
+                                    </p>
+                                 </div>
+                                  <div class="col-md-6 ml-auto">
+                                    <p class="text-right">Remaining Attempts: 
+                                            <span id="checkAttempt">0</span>
+    
+                                    </p>
+                                  </div>
+                                </div>
                         </div>
                       </div>
                     </div>
